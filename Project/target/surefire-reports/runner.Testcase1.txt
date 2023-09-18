@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: runner.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.332 s - in runner.Testcase1
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 23.797 s <<< FAILURE! - in runner.Testcase1
+TC_001(runner.Testcase1)  Time elapsed: 2.111 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: utils/excelReadFile$1
+	at runner.Testcase1.TC_001(Testcase1.java:32)
+Caused by: java.lang.ClassNotFoundException: utils.excelReadFile$1
+	at runner.Testcase1.TC_001(Testcase1.java:32)
+
+TC_002(runner.Testcase1)  Time elapsed: 1.029 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: utils/excelReadFile$1
+	at runner.Testcase1.TC_002(Testcase1.java:50)
+
+TC_003(runner.Testcase1)  Time elapsed: 0.955 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: utils/excelReadFile$1
+	at runner.Testcase1.TC_003(Testcase1.java:67)
+
